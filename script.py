@@ -1,19 +1,19 @@
 
 #affichage un message dans la console
 #print('salam ait ali bekou')
- 
 #name = input('entrer votre nom: ')
 #print('votre nom est: +name')
 
 
 
 
+
 #la lecture avec python
-#formaton=input('entrer le nom de la formation: ')
-#year=input('entrer l'annee de formation : ')
-#print(60 "=")
-#print("formation: " "+formation+"+year)
-#print(60 "")
+# formaton=input('entrer le nom de la formation: ')
+# year=input('entrer lannee de formation : ')
+# print(60 "=")
+# print("formation: " "+formation+"+year)
+# print(60 "")
 
 ###################################################################################les varables
 
@@ -38,7 +38,7 @@
 # print(f" je suis {firstname} age : {age} phone : {phone} active : {active} "
 
 # escape characters
-print( "mohamed \" DEV" )
+# print( "mohamed \" DEV" )
 # 
 # \n  #new ligne 
 # \t  #tabulation
@@ -46,13 +46,13 @@ print( "mohamed \" DEV" )
 # \ " double que
 # \a  #bell cad bip sonore  
 
-age = input("entrer votre age: ")
+# age = input("entrer votre age: ")
 
-if age >=18 :
-    print("vous etes majeur")
-else:
-    print("vous etes mineur")   
-print("fin de programme")   
+# if age >=18 :
+#     print("vous etes majeur")
+# else:
+#     print("vous etes mineur")   
+# print("fin de programme")   
     
     ########################################################
 ############# PYTHON BASICS ############################

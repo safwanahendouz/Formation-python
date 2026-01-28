@@ -18,9 +18,8 @@
 ##############ex1#############################################:
 
 # for number in range(20):
-#     n=19-number
+#     n=19-number                                              
 #     print(number*'*')
-
 
 #############ex2 ###################################
 
@@ -42,6 +41,13 @@
 #         continue
 
 #     print('number: ',number)
+
+# for number in numbers :
+#     if number==17 :
+#         break
+#     # else :
+#     #     break
+# print(numbers)    
 
 
 

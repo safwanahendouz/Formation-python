@@ -43,6 +43,16 @@
 
 # print('Fin')
 
+# second example :
+
+# for number in range(1, 20):
+#     if number==9 :
+#         continue
+#     elif number==7 :
+#         break
+
+#     print('Mon message' , number)
+
 
 # #########################################################################
 # Ex5
@@ -51,6 +61,17 @@
 # for number in numbers:
 #     if number >= 0:
 #         print('positif : ', number)
+
+# #####################second example#############################"" :
+
+# numbers = [-40, 0, 19, 20, -45, -70, 100, 300, -4]
+
+# for number in numbers :
+#     if number >=0 :
+#         print('number is positif', number)
+#     # else :
+#     #     print('number is negatif', number)
+
     
     
 

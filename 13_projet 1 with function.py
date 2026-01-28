@@ -93,7 +93,7 @@ etudiants = [
         'mention': 'Assez Bien',
         'ville': 'El Jadida',
     },
-             {
+            {
             'nom': "safouan",
             'age': 29,
             'note': 20,

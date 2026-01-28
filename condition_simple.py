@@ -98,7 +98,6 @@
 # print(nbr_caracters)
 # print(status)
 
-
 # n=int(input("choisez un nombre: "))
 # reste = n% 2
 
@@ -106,6 +105,7 @@
 #     print('nombre est paire')
 # else:
 #     print('nombre est impaire')  
+
 
 
 

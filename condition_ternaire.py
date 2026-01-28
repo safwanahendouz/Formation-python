@@ -34,10 +34,10 @@ n=19
 
 
 
-# mot_de_passe=int(input ( "creer un mot de passe: ")) 
 # user_name=input("name is: ")
+# mot_de_passe=int(input ( "creer un mot de passe: ")) 
 
-# if mot_de_passe == 2009 :
+# if mot_de_passe == 2008 :
 
 #     if user_name== 'safwan':
 #         print("accepter")

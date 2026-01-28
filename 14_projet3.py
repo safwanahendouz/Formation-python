@@ -49,7 +49,7 @@ while qt.lower()=='oui':
 
     if choix==4:
         print(f'modifier un produit')
-          
+        
     if choix==5:
         print(f'supprimer un produit')
 

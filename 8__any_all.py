@@ -25,8 +25,8 @@
 
 
 # All :
-notes  = [ 12, 16,14,19,17, 20, 16, 14]
+# notes  = [ 12, 16,14,19,17, 20, 16, 14]
 
-result = all([note >= 10 for note in notes])
+# result = all([note >= 10 for note in notes])
 
-print("All Result : ", result)
+# print("All Result : ", result)
