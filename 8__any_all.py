@@ -30,3 +30,4 @@
 # result = all([note >= 10 for note in notes])
 
 # print("All Result : ", result)
+

@@ -7,7 +7,7 @@
 #     if sexe == 'homme':
 #         print('accepte')
 #     else:
-#         print('out')    
+        # print('out')    
 
 ###################################"1 er methode"
 # if age >= 18 and sexe=="homme" and note >=10 :
@@ -97,7 +97,7 @@
 # print("votre salaire est: ",salaire)    
 
 
-email=input("ecrivez votre email: ")
+# email=input("ecrivez votre email: ")
 
 
 

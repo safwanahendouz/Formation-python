@@ -248,14 +248,14 @@
 ########################################################
 #Ternary Operator 
 
-# age = 19
+age = 19
 
 # condition simple
-# if age >= 18:
-#     message = "Vous êtes majeur"
-# else:
-#     message = "Vous êtes mineur"
-# print(message)
+if age >= 18:
+    message = "Vous êtes majeur"
+else:
+    message = "Vous êtes mineur"
+print(message)
     
     
 # condition ternaire  
