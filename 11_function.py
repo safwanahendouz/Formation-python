@@ -11,13 +11,15 @@
 
 # show_message('safwan')
 
-def reverse_msg(s):
-    return s[::-1]
-print(reverse_msg("safwan"))
+# def reverse_msg(s):
+#     return s[::-1]
+# print(reverse_msg("safwan"))
 
-def calculate_sum(a, b):
-    return sum(range(a, b + 1))
-print(calculate_sum(1, 7))
+# def calculate_sum(a, b):
+#     return sum(range(a, b + 1))
+# print(calculate_sum(1, 7))
+
+
 
 
 
