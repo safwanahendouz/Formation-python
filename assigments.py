@@ -90,26 +90,47 @@
 # print(f"Your current balance is: {account.get_balance()}")
 
 # method 2
-class BankAccount:
-    def __init__ (self, owner, balance):
-        self.owner = owner
-        self.balance = balance
+# class BankAccount:
+#     def __init__ (self, owner, balance):
+#         self.owner = owner
+#         self.balance = balance
 
-    def deposit(self, amount):
-        self.balance += amount
+#     def deposit(self, amount):
+#         self.balance += amount
 
-    def withdraw(self, amount):
-        if self.balance <= amount:
-            print("insufficient funds !!!")
-        else:
-            self.balance -=amount
+#     def withdraw(self, amount):
+#         if self.balance <= amount:
+#             print("insufficient funds !!!")
+#         else:
+#             self.balance -=amount
     
-    def get_balance(self):
-        return self.balance
+#     def get_balance(self):
+#         return self.balance
 
-account = BankAccount("Mike", 100)
-account.withdraw(50)
-print(f"your current balance is : {account.get_balance()}")
+# account = BankAccount("Mike", 100)
+# account.withdraw(50)
+# print(f"your current balance is : {account.get_balance()}")
+
+# 8
+class Rectangle:
+    def __init__(self ,width ,height):
+        self.width = width
+        self.height = height
+
+    def get_area(self):
+        return self.width * self.height
+    
+    def get_perimeter(self):
+        return 2 * (self.width + self.height)
+
+rec = Rectangle(5, 10)
+print(rec.get_area())
+print(rec.get_perimeter())
+
+    
+
+
+
 
 
 
