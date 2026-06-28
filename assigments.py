@@ -224,12 +224,72 @@
 # print(f"the perimeter is {rec.get_perimeter()}")
 
 # Assigment 2
-class students:
-    def __init__(self, name):
-        self.name = name
-        self.scores = []
-    def add_score(self, score):
-        self.scores.append(score)
-    def get_average()
+# class students:
+#     def __init__(self, name):
+#         self.name = name
+#         self.scores = []
+#     def add_score(self, score):
+#         self.scores.append(score)
+#     def get_average(self):
+#         if len(self.scores) == 0:
+#             return 0
+#         return sum(self.scores) / len(self.scores)
+#     def is_excellent(self):
+#         return self.get_average() >= 90 
+# stu = students("xiao ming")
+# stu.add_score(95)
+# stu.add_score(88)
+# print(stu.get_average())
+# print(stu.is_excellent())
+        
+# assigment 3
+# class Vehicle:
+#     def __init__(self, brand):
+#         self.brand = brand
+#     def run(self):
+#         print("Running")
+# class Car(Vehicle):
+#     def __init__(self, brand, color):
+#         super().__init__(brand)
+#         self.color = color
+#     def honk(self):
+#         print("Beep beep")
+# class bike(Vehicle):
+#     def ring(self):
+#         print("Ring ring")
+    
+# car = Car("BMW", "red")
+# # print(car.brand)
+# # car.run()
+# # car.honk()
 
+# # assigment4
+# class Employee :
+#     def __init__(self, name, base_salary):
+#         self.name = name
+#         self.base_salary = base_salary
+#     def calculate_salary(self):
+#         return self.base_salary
+    
+# class Manager(Employee):
+#     def __init__(self, name, base_salary, bonus):
+#         self.bonus = bonus
+#         super().__init__(name, base_salary)
+#     def calculate_salary(self):
+#         return self.base_salary + self.bonus
+    
+# class intern(Employee):
+#     def __init__(self, name, hours_worked, hourly_rate):
+#         super().__init__(name, 0)
+#         self.hours_worked = hours_worked
+#         self.hourly_rate = hourly_rate
+#     def calculate_salary(self):
+#         return self.hours_worked * self.hourly_rate
+# emp = Employee("safwan", 5000)
+# man = Manager("safwan", 8000 , 2000)
+# int = intern("safwan", 40, 15)
+
+# print(emp.calculate_salary())
+# print(man.calculate_salary())
+# print(int.calculate_salary())
 
