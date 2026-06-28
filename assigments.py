@@ -112,26 +112,73 @@
 # print(f"your current balance is : {account.get_balance()}")
 
 # 8
-class Rectangle:
-    def __init__(self ,width ,height):
-        self.width = width
-        self.height = height
+# class Rectangle:
+#     def __init__(self ,width ,height):
+#         self.width = width
+#         self.height = height
 
-    def get_area(self):
-        return self.width * self.height
+#     def get_area(self):
+#         return self.width * self.height
     
-    def get_perimeter(self):
-        return 2 * (self.width + self.height)
+#     def get_perimeter(self):
+#         return 2 * (self.width + self.height)
 
-rec = Rectangle(5, 10)
-print(rec.get_area())
-print(rec.get_perimeter())
+# rec = Rectangle(5, 10)
+# print(rec.get_area())
+# print(rec.get_perimeter())
 
+# 9th
+
+# def Fibonacci(n):
+#     a, b = 0, 1
+#     for _ in range(n):
+#         a, b = b, b+a
+# #     return a
+# # print(Fibonacci(6))
+
+# # 10th
+# class Counter:
+#     def __init__(self):
+#         self.count = 0
+
+#     def increment(self):
+#         self.count+= 1
+
+#     def reset(self):
+#         self.count = 0
     
+#     def get_count(self):
+#         return self.count
+    
+# c = Counter()
+# c.increment()
+# c.increment()
+# print(c.get_count())
+# c.reset()
+# print(c.get_count)
+
+# def fe(n):
+#     a, b = 0, 1
+#     for i in range(n):
+#         a, b = b, b+a
+#         return a
+# print(fe(2))
 
 
+# Assigments week 6
 
+# Assigment 1
+# def hello():
+#     print("hello python")
+# hello()
 
+# Assigment 2
+# def greet(name):
+#     print(f"Hello {name}")
+# greet("Safwan")
 
-
+# Assigment 3
+# def sum(a, b):
+#     return a + b
+# print(sum(2, 2))
 
