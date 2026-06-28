@@ -182,3 +182,54 @@
 #     return a + b
 # print(sum(2, 2))
 
+# Assigment 4
+# def calculatrice(a, b, operation):
+#     if operation == "add":
+#         return a + b
+#     elif operation == "subtract":
+#         return a - b
+#     elif operation == "multipl":
+#         return a * b
+#     elif operation == "division":
+#         if b != 0:
+#             return a / b
+#         else :
+#             print("Error !!!")
+#     else :
+#         print("sorry the operation not founded try again !!!")
+
+# print(calculatrice(2, 2, "add"))
+# print(calculatrice(2, 2, "subtract"))
+# print(calculatrice(2, 2, "multipl"))
+# print(calculatrice(2, 0, "division"))
+
+# Assigment 5
+# def introduction(name, age,  city):
+#     return f"hello everyone my name is {name}, i'm {age} years old I came from {city}"
+# print(introduction("Safwan", "18", "Agadir"))
+
+# week 13 - 14
+# Assigment 1
+# class rectangle:
+#     def __init__(self, width, height):
+#         self.width = width
+#         self.height = height
+#     def get_area(self):
+#         return self.width * self.height
+#     def get_perimeter(self):
+#         return (self.width + self.height) * 2
+
+# rec = rectangle(5, 3)
+# print(f"the area is {rec.get_area()}")
+# print(f"the perimeter is {rec.get_perimeter()}")
+
+# Assigment 2
+class students:
+    def __init__(self, name):
+        self.name = name
+        self.scores = []
+    def add_score(self, score):
+        self.scores.append(score)
+    def get_average()
+
+
